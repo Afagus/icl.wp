@@ -48,20 +48,28 @@ img {
 /* Navigation */
 .nav-header {
     font-size: 14px;
+    display: inline-block;
 }
 
-.head-menu {
-    display: inline-block;
-    vertical-align: top;
 
+.head-menu {
+    display: flex;
+    vertical-align: top;
+list-style-type: none;
     margin: 0 10px;
-    color: #fff;
+
     text-decoration: none;
     transition: color .2s linear;
 }
+.head-menu a{
+    color: #fff;
+    margin: 0 10px;
+}
 
-.head-menu:hover {
+
+.head-menu a:hover {
     color: #4f71ed;
+
 }
 
 
@@ -464,8 +472,9 @@ img {
 .footer-nav {
     padding-top: 50px;
 }
-
-
+ul#menu-menu-header-1 {
+    list-style-type: none;
+}
 @media all and (max-width: 830px) {
     .logo {
         max-width: 80px;

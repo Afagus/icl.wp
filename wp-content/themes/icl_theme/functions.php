@@ -2,6 +2,12 @@
 
 add_action('wp_enqueue_scripts', 'style_theme');
 add_action('wp_footer', 'scripts_theme');
+add_action('after_setup_theme', 'myMenu');
+
+function myMenu(){
+    register_nav_menu('headMenu', 'Menu in header');
+    register_nav_menu('footMenu', 'Menu in footer');
+}
 
 function style_theme()
 {

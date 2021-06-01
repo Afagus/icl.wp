@@ -1,12 +1,12 @@
 <div class="footer">
-    <strong><a href="#"><img class="logo" src="img/logo.png" alt="Industrial products"></a></strong>
+    <strong><a href="#"><img class="logo" src="<?= get_template_directory_uri()?>/assets/img/logo.png" alt="Industrial products"></a></strong>
     <div class="footer-nav">
         <nav class="nav-footer">
-            <a class="head-menu" href="#">Products</a>
-            <a class="head-menu" href="#">Research</a>
-            <a class="head-menu" href="#">Energy Storage</a>
-            <a class="head-menu" href="#">Resources</a>
-            <a class="head-menu" href="#">Contact</a>
+            <?php wp_nav_menu(array(
+                'theme_location'  => 'footMenu',
+                'container' => null,
+                'menu_class' => 'foot-menu',
+            ))?>
         </nav>
     </div>
 </div>
