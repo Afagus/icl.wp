@@ -10,8 +10,10 @@ function style_theme(){
 
 }
 function loadJS(){
-	wp_enqueue_script('jquery-2.2.0', get_template_directory_uri().'/assets/js/jquery-2.2.0.js');
 	wp_enqueue_script('main', get_template_directory_uri().'/assets/js/main.js');
 	wp_enqueue_script('jquery');
+	wp_enqueue_script('jquery-2.2.0', get_template_directory_uri().'/assets/js/jquery-2.2.0.js');
+
+
 }
 
