@@ -6,7 +6,9 @@ get_header()
             <h2 class="secondary-slogan">Discover the New Power of </h2>
 
             <h1 class="main-slogan">Bromine</h1>
-            <a class="arrow-down" href="#energy_storage"><img src="<?= get_template_directory_uri()?>/assets/img/arrow-down.png" alt="Bromine for Energy Storage"></a>
+            <a class="arrow-down" href="#energy_storage"><img
+                        src="<?= get_template_directory_uri() ?>/assets/img/arrow-down.png"
+                        alt="Bromine for Energy Storage"></a>
         </div>
     </div>
     <div class="title-annotation">
@@ -16,7 +18,6 @@ get_header()
                 the new force in the field of energy storage.</p>
         </div>
     </div>
-
     <section class="energy-storage" id="energy_storage">
 
         <div class="section-header">
@@ -27,28 +28,39 @@ get_header()
         </div>
         <div class="section-icons">
             <div class="icon-item">
-                <img class="promo-icon" src="<?= get_template_directory_uri()?>/assets/img/bromine_elements/home_03.jpg" alt="Abundant chemical">
+                <img class="promo-icon"
+                     src="<?= get_template_directory_uri() ?>/assets/img/bromine_elements/home_03.jpg"
+                     alt="Abundant chemical">
                 <div class="promo-text">Abundant chemical</div>
             </div>
             <div class="icon-item">
-                <img class="promo-icon" src="<?= get_template_directory_uri()?>/assets/img/bromine_elements/home_05.jpg" alt="Environmentally friendly">
+                <img class="promo-icon"
+                     src="<?= get_template_directory_uri() ?>/assets/img/bromine_elements/home_05.jpg"
+                     alt="Environmentally friendly">
                 <div class="promo-text">Environmentally friendly</div>
             </div>
             <div class="icon-item">
-                <img class="promo-icon" src="<?= get_template_directory_uri()?>/assets/img/bromine_elements/home_07.jpg" alt="Long lifetime">
+                <img class="promo-icon"
+                     src="<?= get_template_directory_uri() ?>/assets/img/bromine_elements/home_07.jpg"
+                     alt="Long lifetime">
                 <div class="promo-text">Long lifetime</div>
             </div>
 
             <div class="icon-item">
-                <img class="promo-icon" src="<?= get_template_directory_uri()?>/assets/img/bromine_elements/home_12.jpg" alt="Superior performance">
+                <img class="promo-icon"
+                     src="<?= get_template_directory_uri() ?>/assets/img/bromine_elements/home_12.jpg"
+                     alt="Superior performance">
                 <div class="promo-text">Superior performance</div>
             </div>
             <div class="icon-item">
-                <img class="promo-icon" src="<?= get_template_directory_uri()?>/assets/img/bromine_elements/home_13.jpg" alt="Safe">
+                <img class="promo-icon"
+                     src="<?= get_template_directory_uri() ?>/assets/img/bromine_elements/home_13.jpg" alt="Safe">
                 <div class="promo-text">Safe</div>
             </div>
             <div class="icon-item">
-                <img class="promo-icon" src="<?= get_template_directory_uri()?>/assets/img/bromine_elements/home_15.jpg" alt="Cost effective">
+                <img class="promo-icon"
+                     src="<?= get_template_directory_uri() ?>/assets/img/bromine_elements/home_15.jpg"
+                     alt="Cost effective">
                 <div class="promo-text">Cost effective</div>
             </div>
         </div>
@@ -65,20 +77,25 @@ get_header()
                     allowfullscreen></iframe>
         </div>
     </div>
-    </div>
     <div class="promo">
         <div class="promo-block">
-            <div class="product-section product-section--first">
-                <h3 class="header_title">Products</h3>
-                <p>Custom made electrolyte blends, from batch to mass production</p>
+            <div class="blue__frame">
+                <div class="product-section">
+                    <h3 class="header_title">Products</h3>
+                    <p>Custom made electrolyte blends, from batch to mass production</p>
+                </div>
             </div>
-            <div class="product-section">
-                <h3 class="header_title">Research</h3>
-                <p>Comprehensive research services, from advisory to trouble shooting and joint development</p>
+            <div class="blue__frame">
+                <div class="product-section">
+                    <h3 class="header_title">Research</h3>
+                    <p>Comprehensive research services, from advisory to trouble shooting and joint development</p>
+                </div>
             </div>
-            <div class="product-section  product-section--resource_center">
-                <h3 class="header_title header_title--resource">Resource Center</h3>
-                <a class="learn-more" href="#">Learn More</a>
+            <div class="blue__frame">
+                <div class="product-section">
+                    <h3 class="header_title">Resource Center</h3>
+                    <a class="learn-more" href="#">Learn More</a>
+                </div>
             </div>
         </div>
     </div>
@@ -111,56 +128,58 @@ get_header()
 
         <div class="section-icons" id="partners">
             <div class="partner-item">
-                <a href="#" target="_blank"><img class="partner-icon" src="<?= get_template_directory_uri()?>/assets/img/partners/partner1.png"
+                <a href="#" target="_blank"><img class="partner-icon"
+                                                 src="<?= get_template_directory_uri() ?>/assets/img/partners/partner1.png"
                                                  alt="Tradition of excellence"></a>
             </div>
             <div class="partner-item">
                 <a href="https://ec.europa.eu/" target="_blank"><img class="partner-icon"
-                                                                     src="<?= get_template_directory_uri()?>/assets/img/partners/partner2.png"
+                                                                     src="<?= get_template_directory_uri() ?>/assets/img/partners/partner2.png"
                                                                      alt="European Commission"></a>
             </div>
             <div class="partner-item">
                 <a href="https://www.fraunhofer.de/en.html" target="_blank"><img class="partner-icon"
-                                                                                 src="<?= get_template_directory_uri()?>/assets/img/partners/partner3.png"
+                                                                                 src="<?= get_template_directory_uri() ?>/assets/img/partners/partner3.png"
                                                                                  alt="Fraunhofer"></a>
             </div>
             <div class="partner-item">
-                <a href="" target="_blank"><img class="partner-icon" src="<?= get_template_directory_uri()?>/assets/img/partners/partner4.png" alt="EOS"></a>
+                <a href="" target="_blank"><img class="partner-icon"
+                                                src="<?= get_template_directory_uri() ?>/assets/img/partners/partner4.png"
+                                                alt="EOS"></a>
             </div>
             <div class="partner-item">
                 <a href="https://www.primuspower.com/en/" target="_blank"><img class="partner-icon"
-                                                                               src="<?= get_template_directory_uri()?>/assets/img/partners/partner5.png"
+                                                                               src="<?= get_template_directory_uri() ?>/assets/img/partners/partner5.png"
                                                                                alt="Primus Power"></a>
             </div>
 
             <div class="partner-item">
                 <a href="https://www.technion.ac.il/en/home-2/" target="_blank"><img class="partner-icon"
-                                                                                     src="<?= get_template_directory_uri()?>/assets/img/partners/partner6.png"
+                                                                                     src="<?= get_template_directory_uri() ?>/assets/img/partners/partner6.png"
                                                                                      alt="Technion"></a>
             </div>
             <div class="partner-item">
                 <a href="https://www.princeton.edu/" target="_blank"><img class="partner-icon"
-                                                                          src="<?= get_template_directory_uri()?>/assets/img/partners/partner7.png"
+                                                                          src="<?= get_template_directory_uri() ?>/assets/img/partners/partner7.png"
                                                                           alt="Princeton University"></a>
             </div>
             <div class="partner-item">
-                <a href="https://redflow.com/" target="_blank"><img class="partner-icon" src="<?= get_template_directory_uri()?>/assets/img/partners/partner8.png"
+                <a href="https://redflow.com/" target="_blank"><img class="partner-icon"
+                                                                    src="<?= get_template_directory_uri() ?>/assets/img/partners/partner8.png"
                                                                     alt="Red flow"></a>
             </div>
             <div class="partner-item">
                 <a href="https://www.wattjoule.com/" target="_blank"><img class="partner-icon"
-                                                                          src="<?= get_template_directory_uri()?>/assets/img/partners/partner9.png"
+                                                                          src="<?= get_template_directory_uri() ?>/assets/img/partners/partner9.png"
                                                                           alt="WattJoule"></a>
             </div>
             <div class="partner-item">
                 <a href="https://www.lottechem.com/eng/main/index.do" target="_blank"><img class="partner-icon"
-                                                                                           src="<?= get_template_directory_uri()?>/assets/img/partners/partner10.png"
+                                                                                           src="<?= get_template_directory_uri() ?>/assets/img/partners/partner10.png"
                                                                                            alt="Lotte Chemical"></a>
             </div>
         </div>
     </div>
-    </div>
-
     <div class="contact-us">
         <div class="bottle-page">
             <div class="project-header2">
@@ -173,7 +192,7 @@ get_header()
                     <a class="contact" href="#">Contact Us</a></p>
             </div>
             <div class="promo-picture">
-                <img class="bottle" src="<?= get_template_directory_uri()?>/assets/img/bottle.gif" alt="bottle">
+                <img class="bottle" src="<?= get_template_directory_uri() ?>/assets/img/bottle.jpg" alt="bottle">
             </div>
         </div>
     </div>

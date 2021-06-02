@@ -1,0 +1,1228 @@
+@media screen and (min-width: 980px) {
+    header .head-top-wrapper .top-nav{
+        display: block!important;
+    }
+    .black{
+        background: linear-gradient(to bottom, rgba(0, 0, 0, 0.34) 0%, transparent 100%)!important;
+        padding: 30px 0 150px;
+    }
+}
+
+@media screen and (max-width: 979px) {
+    // main-page
+    body > main > .partners .partners-grid .partners-grid-item{
+        width: 50%;
+        margin-top: 5px;
+    }
+
+    body > main > .product-page-concentration .product-slide .concentration-img,
+    body > main > .product-page-concentration .product-slide .concentration-text{
+        width: 100%;
+        float: none;
+    }
+
+    body > main > .product-page-concentration .product-slide .concentration-img{
+        height: 365px;
+    }
+
+    body > main > .white-section {
+        padding: 42px 0 66px;
+        .wrapper {
+            .energy-grid{
+                max-width: 650px;
+                margin: -20px auto 0;
+                .grid-item{
+                    flex-basis: 50%;
+                    margin-top: 26px;
+                    &:nth-child(n+4){
+                        margin-top: 15px;
+                    }
+                }
+            }
+            .fact-page-btn{
+                text-decoration: underline;
+                font-size: 15px;
+                margin-top: 88px;
+                img{
+                    display: none;
+                }
+            }
+        }
+    }
+    body > main > .main-page-tab .wrapper .tab-item{
+        &:after{
+            width: 100%;
+            height: 1px;
+            bottom: 0;
+            left: 0;
+        }
+        min-height: 215px;
+        .text{
+            h3{
+                font-size: 34px;
+            }
+            p{
+                font-size: 15px;
+            }
+        }
+    }
+    body > main > .science-section{
+
+        .wrapper{
+            &:after{
+                right: 3%;
+                // max-width: 165px;
+            }
+
+        }
+    }
+    // end main-page
+
+    body > main > .products-research .left-side,
+    body > main > .products-research .right-side{
+        width: 100%;
+    }
+
+
+    // Products
+
+    body > main > .top-section{
+        .wrapper{
+            h1, p{
+                margin-left: 0;
+            }
+        }
+
+    }
+
+    body > main > .products-research .left-side > .research-text,
+    body > main > .products-research .right-side > .research-text{
+        float: none;
+        margin: 0 auto;
+        padding: 50px 25px;
+    }
+    body > main > .products-study .wrapper h2, body > main > .product-page-white .wrapper p{
+        font-size: 35px;
+    }
+    body > header .head-top-wrapper .logo, body > header .head-top-wrapper .top-nav{
+        margin: 0;
+    }
+
+    header .head-top-wrapper {
+        .hamburger{
+            display: block;
+        }
+        .top-nav{
+            height: auto;
+            float: none;
+            display: none;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            ul{
+                position: static;
+                height: auto;
+                transform: translateY(0);
+                text-align: center;
+                li{
+                    display: block;
+                    margin: 30px 0;
+
+                    &::after{
+                        bottom: -17px;
+                    }
+                    &:last-child{
+                        &::after{
+                            bottom: -17px;
+                        }
+                    }
+                }
+            }
+            &:before{
+                content: '';
+                display: block;
+                clear: both;
+            }
+         }
+    }
+
+    body > main > .products-study{
+        padding: 50px 0;
+    }
+    body > main > .product-page-concentration {
+        .bx-wrapper{
+            max-width: 630px!important;
+            margin: 0 auto;
+        }
+        .slider{
+            .product-mob-sliderslide{
+                .concentration-img{
+                    width: 100%;
+                    float: none;
+                }
+                .concentration-text{
+                    width: 100%;
+                    float: none;
+                    .text-wrapper{
+                        h2{
+                            font-size: 23px;
+                            font-weight: 700;
+                        }
+                        p{
+                            font-size: 12px;
+                            line-height: 17px;
+                        }
+                        .sub-header{
+                            font-size: 12px;
+                            margin: 5px 0 10px;
+                            line-height: 12px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    body > main > .product-page-concentration .bx-wrapper .bx-pager{
+        max-width: 100%;
+        bottom: 10px;
+        right: 0;
+    }
+
+    // End Products
+
+    // Research
+    body > main > .research-page-blue{
+        .plus-item{
+            width: 100%;
+            max-width: 460px;
+            margin: 0 auto;
+            float: none;
+        }
+    }
+    body > main > .case-study > .wrapper {
+        .case-study-wrapper > .case-study-item{
+            width: 100%;
+            float: none;
+            max-width: 480px;
+            margin:  0 auto;
+            &:after{
+                display: none;
+            }
+        }
+    }
+    // End Research
+
+    // Footer
+
+    // end-footer
+
+    // resourse Center
+    body > main >.article-wrapper{
+    	.wrapper{
+    		padding: 100px 20px;
+    		.article-item{
+    			flex-basis:	50%;
+    			.article-content{
+                    margin: 0 auto 50px;
+    			}
+    			&:nth-child(3n + 2), &:nth-child(3n){
+    				.article-content{
+    					margin: 0 auto 50px;
+    				}
+    			}
+    		}
+    	}
+    }
+
+    // end resource center
+
+    // contact
+    body > main .contact-us-wrapper .wrapper{
+        max-width: 460px;
+    }
+
+    body > main .contact-us-wrapper .wrapper form fieldset.left-column,
+    body > main .contact-us-wrapper .wrapper form fieldset.right-column{
+        width: 100%;
+    }
+
+    // end-contact
+
+    // energy-storage
+    body > main.energy-storage {
+        .energy-growing {
+            .energy-img-wrapper {
+                img{
+                    width: 100%;
+                    margin: 0;
+                }
+            }
+        }
+    }
+    body > main.energy-storage > .energy-flow-batteries img.desktop{
+        margin: 0;
+    }
+
+}
+
+@media screen and (max-width: 767px) {
+
+    // common
+
+    body > main > .top-section{
+        // padding: 84px 0 74px;
+        .wrapper{
+            // padding-left: 40px;
+            h1{
+                font-size: 34px;
+                font-weight: 500;
+                line-height: 36px;
+                margin-bottom: 14px;
+            }
+            p{
+                font-size: 14px;
+                line-height: 17px;
+                max-width: 200px;
+            }
+        }
+
+    }
+
+    // main-page
+    body > main > .science-section{
+
+        .wrapper{
+            padding: 38px 30px 45px;
+            h2{
+                font-size: 20px;
+                line-height: 24px;
+                margin: 0 0 16px 0;
+                max-width: 160px;
+            }
+            p{
+                font-size: 12px;
+                margin: 0 0 12px 0;
+                max-width: 170px;
+                line-height: 17px
+            }
+            a.contact-us-btn{
+                border: none;
+                padding: 0;
+                text-decoration: underline;
+                letter-spacing: 0;
+                margin: 0;
+            }
+
+            &:after{
+                // right: -50px;
+                max-width: 165px;
+            }
+
+        }
+    }
+    body > main > .white-section .wrapper .energy-grid .grid-item{
+        flex-direction: column;
+        .item-img{
+            width: 100%;
+            margin: 0;
+        }
+        .item-text{
+            p{
+                font-size: 15px;
+                margin: 31px 0px 10px 2px;
+                text-align: center;
+                width: 100%;
+                line-height: 24px;
+            }
+        }
+    }
+    body > main > .main-page-tab .wrapper .tab-item{
+        width: 100%;
+        margin: 0 auto;
+        min-height: 130px;
+        float: none;
+        &:after{
+            width: 100%;
+            height: 1px;
+            bottom: 0;
+            left: 0;
+        }
+        padding: 30px 0;
+        .text{
+            padding: 0 90px;
+            h3{
+                font-size: 22px;
+                letter-spacing: 0;
+                margin-bottom: 10px;
+            }
+            p{
+                line-height: 24px;
+                max-width: 190px;
+            }
+        }
+    }
+    body > main > .main-page-featured{
+
+        padding: 0;
+        .featured-text{
+            margin-left: 17px;
+            h2{
+                font-size: 20px;
+                line-height: 24px;
+                max-width: 100px;
+            }
+            p{
+                font-size: 12px;
+                line-height: 17px;
+                max-width: 150px;
+                margin: 17px 0 42px;
+            }
+            a{
+                text-decoration: underline;
+                &:after{
+                    display: none;
+                }
+            }
+        }
+    }
+    body > main > .partners {
+        padding: 54px 0 73px;
+        .wrapper{
+            padding-left: 30px;
+            h2{
+                font-size: 20px;
+                text-align: left;
+                margin-left: 0;
+            }
+            p{
+                text-align: left;
+                font-size: 16px;
+                line-height: 24px;
+                margin: 13px 0 0 0;
+            }
+        }
+        .partners-grid{
+            padding: 0 15px;
+            margin-top: 35px;
+            ul{
+                justify-content: center;
+                li{
+                    flex-basis: 50%;
+                    margin-bottom: 50px;
+                }
+            }
+        }
+
+    }
+    body > main > .science-section{
+        .wrapper{
+            &:after{
+                right: 8%;
+                max-width: 165px;
+            }
+        }
+    }
+    body > main > .main-page-top-section{
+
+        h1{
+            font-size: 90px;
+            margin: 10px 0 30px;
+            letter-spacing: 0.01em;
+        }
+
+        p{
+            font-size: 30px;
+            font-weight: 400;
+            line-height: 23px;
+            letter-spacing: 0.055em;
+            margin-top: 3px;
+        }
+    }
+    body > main > .main-page-video{
+        padding: 0;
+        h2{
+            font-size: 30px;
+            line-height: 40px;
+            max-width: 450px;
+        }
+        p{
+            font-size: 14px;
+            line-height: 15px;
+            max-width: 450px;
+            margin: 6px auto 28px;
+            letter-spacing: 0.04em;
+        }
+        button.play-btn{
+            width: 55px;
+        }
+    }
+    // end main-page
+
+    // Products
+
+
+    body > main > .product-page-blue{
+        padding: 51px 20px 76px;
+        .wrapper{
+            h2{
+                font-size: 23px;
+                font-weight: 700;
+                text-align: left;
+                line-height: 28px;
+            }
+        }
+        .blue-section-item .blue-section-text{
+            margin: 115px 0 0 0;
+            &:before{
+                top: -100px;
+                left: 0;
+            }
+            p{
+                font-size: 15px;
+                max-width: 220px;
+                line-height: 24px;
+                margin: 8px 0;
+            }
+            h3{
+                font-size: 20px;
+            }
+            a{
+                font-size: 15px;
+                text-decoration: underline;
+                img{
+                    display: none;
+                }
+            }
+        }
+    }
+    body > main > .product-page-white{
+        padding: 45px 0 60px;
+        .wrapper{
+            p{
+                margin: 0 auto;
+                line-height: 21px;
+                // text-align: center;
+                font-size: 17px;
+            }
+        }
+
+    }
+    body > main > .products-study{
+        .wrapper{
+            p{
+                font-size: 12px;
+            }
+            h2{
+                font-size: 17px;
+                line-height: 23px;
+                margin: 18px 0 14px;
+            }
+            a{
+                font-size: 15px;
+                text-decoration: underline;
+                font-weight: 300;
+                img{
+                    display: none;
+                }
+            }
+
+        }
+    }
+    body > main > .products-research{
+        .left-side, .right-side{
+            .research-text{
+                padding: 40px 46px;
+                p{
+                    font-size: 15px;
+                    line-height: 25px;
+                    margin: 12px 0 4px;
+                    max-width: 200px;
+                }
+                a{
+                    font-size: 17px;
+                    img{
+                        margin-left: 4px ;
+                    }
+                }
+            }
+        }
+    }
+    body > main > .product-page-blue .blue-section-item:last-child .blue-section-text{
+        margin: 115px 0 0 0;
+        &:before{
+            top: -100px;
+            left: 0;
+        }
+    }
+
+
+    // end-products
+
+    // energy-storage
+    body > main.energy-storage > .energy-wide .energy-storage-wrapper .energy-storage-item{
+        max-width: 450px;
+        margin: 30px auto 0;
+        min-height: 0;
+        p{
+            font-size: 16px;
+        }
+    }
+    body > main.energy-storage > .energy-wide .energy-storage-wrapper{
+        margin-top: 40px;
+    }
+
+    body > main.energy-storage > .energy-battery-solution blockquote{
+        display: none;
+    }
+    // End energy-storage
+    body > main .bottom-line{
+        padding: 120px 0 0 0;
+        &::after{
+            display: none;
+        }
+    }
+    // research
+    body > main  .research-page-top-section{
+        padding: 0;
+        .wrapper{
+            h1{
+                font-weight: 600;
+                max-width: 150px;
+                margin: 0 0 15px 0;
+                line-height: 38px;
+            }
+            p{
+                max-width: 210px;
+                line-height: 18px;
+            }
+        }
+    }
+    body > main > .research-expertise {
+        padding: 49px 0 53px;
+        .wrapper{
+            h2.mobile-header{
+                text-align: center;
+            }
+            padding: 0 37px;
+            .expertise-img,.expertise-text{
+                width: 100%;
+                .text-wrapper{
+                    width: 100%;
+                    max-width: 320px;
+                    margin: 30px auto;
+                    padding: 0;
+                    h2{
+                        font-size: 20px;
+                        line-height: 25px;
+                        max-width: 235px;
+                    }
+                    ul {
+                        margin-top: 20px;
+                        padding-left: 25px;
+                        li{
+                           font-size: 12px;
+                           margin-bottom: 15px;
+                           line-height: 15px;
+                       }
+                    }
+                }
+                img{
+                    max-width: 320px;
+                    margin: 0 auto;
+                }
+            }
+        }
+    }
+    body > main > .research-expertise .wrapper .mobile-header{
+        display: block;
+        margin-bottom: 30px;
+    }
+    body > main > .research-page-blue{
+        padding: 54px 0;
+        .wrapper{
+            h2{
+                font-size: 18px;
+                max-width: 230px;
+                line-height: 22px;
+                margin-bottom: 0;
+            }
+            .plus-item{
+                .plus-item-content{
+                    padding: 60px 20px 0 28px;
+                    text-align: left;
+                    h3{
+                        font-size: 22px;
+                        margin: 40px 0 22px 0;
+                    }
+                    p{
+                        font-size: 15px;
+                        line-height: 24px;
+                    }
+                }
+            }
+        }
+    }
+    body > main > .innovation-program{
+        padding: 40px 0;
+        .wrapper{
+            opacity: 0;
+        }
+    }
+    body > main > .innovation-program-mobile{
+        display: block;
+        .wrapper{
+            p{
+                font-size: 15px;
+                color: #545454;
+                font-weight: 300;
+            }
+        }
+    }
+    body > main > .case-study > .pop-up-wrapper > .pop-up-window{
+        .pop-up-cont .next-case-btn{
+            text-align: left;
+        }
+        .pop-up-cont .temperature-wrapper{
+            .left-side, .right-side{
+                width: 100%;
+                float: none;
+                margin: 20px 0;
+                .text-wrapper{
+                    padding: 0;
+                    h3{
+                        font-size: 30px;
+                    }
+                }
+                .bx-wrapper .slider .slide p{
+                    margin-left: 0;
+                }
+            }
+        }
+    }
+    // end-research
+
+    // resource Center
+
+    body > main > .article-wrapper .wrapper .article-item{
+        flex-basis: 100%;
+    }
+
+    // Footer
+    body > footer {
+        padding: 53px 0 83px;
+        .footer-logo{
+
+            img{
+                width: 126px;
+                height: auto;
+                padding-left: 0;
+                margin: 2px 0 0 26px;
+            }
+        }
+        .footer-nav{
+            text-align: left;
+            margin: 47px 0 0 26px;
+            ul{
+                li{
+                    margin: 7px 0;
+                    display: block;
+                    a{
+                        font-size: 24px;
+                    }
+                }
+            }
+        }
+    }
+    // end Footer
+
+    // contactus
+    body > main .contact-us-wrapper .wrapper h2{
+        font-size: 23px;
+        font-weight: 600;
+        margin-bottom: 0;
+    }
+
+    body > main .contact-us-wrapper{
+        padding: 40px 0 100px;
+    }
+
+    body > main .address .wrapper .right-address,
+    body > main .address .wrapper .left-address{
+        float: none;
+    }
+
+    body > main .address .wrapper .right-address{
+        margin-top: 35px;
+    }
+
+    body > main .contact-us-wrapper .wrapper form input[type="submit"]{
+        margin: 35px 0 0 0;
+        font-size: 11px;
+        padding: 13px 32px;
+    }
+
+    body > main .address .wrapper{
+        max-width: 460px;
+    }
+
+    // end contactus
+    body > main.energy-storage > .energy-battery-solution .author-wrapper{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 768px) {
+
+    .research-expertise{
+
+        .wrapper{
+            position: relative;
+            .expertise-text{
+                position: absolute;
+                top: 50%;
+                right: 15px;
+                transform: translateY(-50%);
+            }
+        }
+    }
+
+    }
+
+@media screen and (max-width: 479px) {
+    // -------Main-page-------------//
+    body > main > .main-page-top-section{
+        padding: 0;
+        text-align: left;
+        h1{
+            font-size: 45px;
+            margin: 4px 0 0 14px;
+            letter-spacing: 0.01em;
+        }
+
+        p{
+            font-size: 20px;
+            font-weight: 400;
+            max-width: 150px;
+            line-height: 23px;
+            letter-spacing: 0.055em;
+            margin: 3px 0 0 15px;
+        }
+
+        a{
+            display: none;
+        }
+    }
+    body > header .head-top-wrapper .logo img{
+        max-width: 73px;
+        height: auto;
+        margin-left: 19px;
+    }
+    body > header{
+        padding: 15px 0;
+    }
+    .hamburger .line:first-child{
+        margin-top: 0;
+    }
+    .hamburger .line:last-child{
+        margin-bottom: 0;
+    }
+    body > main > .main-page-blue{
+        padding: 35px 0 50px;
+        p{
+            font-size: 15px;
+            max-width: 258px;
+            text-align: left;
+            line-height: 24px;
+            letter-spacing: 0.079em;
+        }
+    }
+    body > main > .main-page-white .wrapper {
+        h2{
+           font-size: 24px;
+           font-weight: bold;
+           letter-spacing: 0.03em;
+           max-width: 200px;
+           line-height: 27px;
+           margin-left: 14px;
+           text-align: left;
+       }
+       p{
+           text-align: left;
+            font-size: 15px;
+            margin: 18px 50px 50px 15px;
+            line-height: 24px;
+       }
+       a.fact-page-btn{
+           margin-top: 53px;
+           padding-right: 12px;
+           &:after{
+               display: none;
+           }
+       }
+    }
+    body > main > .main-page-slider {
+            .bx-viewport{
+                height: 150px!important;
+                .slide {
+                    padding:37px 0 68px;
+                    h4{
+                        font-size: 20px;
+                        margin-bottom: 9px;
+                    }
+                    p{
+                        font-size: 12px;
+                    }
+                }
+            }
+            .bx-wrapper > .bx-controls > .bx-pager {
+                bottom: 27%;
+                .bx-pager-item > a{
+                    width: 9px;
+                    height: 9px;
+                    margin: 0 3px;
+                }
+
+            }
+    }
+    body > main > .science-section{
+        .wrapper{
+            &:after{
+                right: 0;
+                max-width: 115px;
+                background-image: url('../images/science-mob.png');
+            }
+        }
+    }
+    body > main > .main-page-video{
+        padding: 0;
+        background-image: url('../images/mobile_deadsea_movie.jpg');
+        h2{
+            font-size: 15px;
+            line-height: 24px;
+            max-width: 220px;
+        }
+        p{
+            font-size: 13px;
+            line-height: 15px;
+            max-width: 210px;
+            margin: 6px auto 28px;
+            letter-spacing: 0.04em;
+        }
+        button.play-btn{
+            width: 55px;
+        }
+    }
+    body > main > .main-page-tab .wrapper .tab-item .text{
+        padding: 0 30px;
+    }
+    // -------Main-page-------------//
+
+    // products
+    body > main > .products-page-top-section{
+        background-image: url('../images/mobile_header_image.jpg');
+        background-position: 38% 0;
+        .wrapper{
+            padding: 0 15px 0 40px;
+            h1,p{
+                color: $primary-text-color;
+            }
+            p{
+                margin-left: 0;
+            }
+        }
+    }
+
+    body > main > .product-page-concentration{
+        padding: 0;
+        .slide .concentration-text .text-wrapper{
+            padding: 22% 13%;
+        }
+    }
+
+    .concentration-text .text-wrapper h2{
+        font-size: 28px;
+    }
+
+    body > main > .main-page-featured{
+        background-image: url('../images/sqwer_image6psd.jpg');
+    }
+    // end-products
+
+    // research
+    body > main > .case-study > .wrapper > .case-study-wrapper > .case-study-item{
+        .case-study-content{
+            padding: 70px 30px 15px 30px;
+            p{
+                font-size: 15px;
+                margin: 28px 0 48px 0;
+                line-height: 25px;
+                max-width: 180px;
+            }
+        }
+
+    }
+    body > main > .research-expertise .wrapper > h2.mobile-header{
+        text-align: left;
+    }
+
+    // end-research
+
+    // energy-Storage
+    body > main.energy-storage{
+        .bottom-line{
+            &:after{
+                height: 0;
+            }
+        }
+        .energy-page-top-section{
+            padding: 115px 0 80px;
+            .wrapper{
+                img{
+                    margin-left: 24px;
+                    max-width: 138px;
+                }
+            }
+        }
+        .energy-growing{
+            padding: 6px 0;
+            .wrapper{
+                text-align: left;
+                h1{
+                    font-size: 22px;
+                    font-weight: 600;
+                    line-height: 26px;
+                }
+                p{
+                    font-size: 15px;
+                    line-height: 16px;
+                    margin: 16px 0 72px;
+                    line-height: 22px;
+                }
+                h2{
+                    text-align: center;
+                    font-size: 12px;
+                    margin-bottom: 23px;
+                }
+
+                p.speach{
+                    font-size: 14px;
+                    font-weight: 500;
+                    text-align: center;
+                    margin: 24px 0 0 0;
+                }
+                p.author{
+                    text-align: center;
+                    margin: 12px 0 0 0;
+                }
+            }
+            .energy-img-wrapper::after{
+                bottom: 15px;
+                left: 0;
+                text-align: center;
+                width: 100%;
+            }
+        }
+        .energy-battery-solution {
+            padding: 85px 0 90px;
+            .wrapper{
+                padding: 0;
+                text-align: left;
+                h2{
+                    font-size: 18px;
+                    font-weight: 500;
+                    margin: 0 25px;
+                    letter-spacing: 0.078em;
+                }
+                p{
+                    margin: 17px 25px 11px;
+                    line-height: 21px;
+
+                }
+                h3{
+                    font-size: 15px;
+                    margin: 60px 10px 30px;
+                    text-align: center;
+                    font-weight: 600;
+                }
+            }
+        }
+        .energy-flow-batteries{
+            padding: 0;
+            text-align: left;
+            .wrapper{
+                padding: 0;
+            }
+            h2, h3{
+                font-size: 22px;
+                font-weight: 500;
+                max-width: 220px;
+                margin-left: 30px;
+                line-height: 28px;
+            }
+            p{
+                font-size: 15px;
+                margin-left: 15px;
+                margin: 18px 0 80px 30px;
+            }
+            p.sub-header{
+                font-size: 15px;
+                margin: 0 30px 40px;
+            }
+            .energy-flow-img-wrapper{
+                padding: 0;
+            }
+        }
+        .energy-wide{
+            h2{
+                font-size: 20px;
+                font-weight: 500;
+                max-width: 250px;
+            }
+
+             .energy-storage-wrapper{
+                 margin-top: 50px;
+                 max-width: 330px;
+             }
+            .energy-storage-wrapper .energy-storage-item p{
+                font-size: 12px;
+                line-height: 18px;
+                padding-left: 50px;
+                &:before{
+                    top: -10px;
+                }
+            }
+        }
+        .co-working{
+            padding-top: 0;
+            text-align: left;
+            h2, p{
+                margin-left: 15px;
+            }
+            h2{
+                font-size: 20px;
+                font-weight: 500;
+            }
+            p{
+                font-size: 15px;
+                line-height: 24px;
+            }
+            a.contact-us-btn{
+                text-align: center;
+                margin: 0  0 0 26px;
+            }
+        }
+
+
+        img.desktop{
+            display: none;
+        }
+
+        img.mobile{
+            display: block;
+            max-width: 320px;
+            margin: 0 auto;
+        }
+
+    }
+    body > main.energy-storage > .energy-flow-batteries .energy-flow-img-wrapper:before,
+    body > main.energy-storage > .energy-flow-batteries .energy-flow-img-wrapper:after{
+        display: none;
+    }
+
+    body > main.energy-storage .energy-growing .wrapper{
+
+        h1, p{
+            margin-left: 15px;
+        }
+
+        .energy-img-wrapper{
+            img.mobile{
+                display: block;
+                max-width: 276px;
+                margin: 0 auto;
+            }
+            img.desktop{
+                display: none;
+            }
+        }
+    }
+    body > main > .product-page-concentration .product-slide:first-child .concentration-img {
+        background-image: url('../images/sqwer_image4.jpg');
+    }
+    body > main > .product-page-concentration .product-slide:nth-child(2) .concentration-img {
+        background-image: url('../images/sqwer_image3.jpg');
+    }
+    body > main > .product-page-concentration .product-slide:nth-child(3) .concentration-img {
+        background-image: url('../images/sqwer_image.jpg');
+    }
+
+    body > main.energy-storage > .energy-flow-batteries .energy-flow-img-wrapper img{
+        margin: 0;
+    }
+
+    // end-energy storage
+
+
+
+
+    // contact
+
+    body > main > .top-section .wrapper h1{
+        font-size: 34px;
+        font-weight: bold;
+        margin-left: 0;
+    }
+
+    body > main .contact-page-top-section{
+        background-image: url('../images/sqwer_image7.jpg');
+    }
+
+    body > main .contact-us-wrapper .wrapper{
+        max-width: 270px;
+    }
+
+    body > main .contact-us-wrapper .wrapper form fieldset input,
+    body > main .contact-us-wrapper .wrapper form fieldset textarea{
+        margin-top: 20px;
+    }
+
+    body > main .contact-us-wrapper .wrapper form fieldset input,
+    body > main .contact-us-wrapper .wrapper form fieldset textarea{
+        margin-top: 12px;
+    }
+
+    body > main .address .wrapper{
+        max-width: 270px;
+    }
+
+    body > main .address .wrapper .left-address li,
+    body > main .address .wrapper .right-address li{
+        font-size: 15px;
+    }
+
+    // contactus
+
+    // resource center
+
+    body > main > .resource-center-page-top-section{
+        padding: 97px 0 22px;
+        text-align: left;
+        .wrapper{
+            padding-left: 45px;
+            h1{
+                margin: 10px 0;
+                line-height: 45px;
+                font-size: 36px;
+            }
+            img{
+                max-width: 138px;
+            }
+        }
+    }
+
+    // end resource center
+
+
+}
